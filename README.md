@@ -5,6 +5,7 @@ To limit the concurrency of async tasks. When there are available slots in the e
 - You can set a maximum concurrency limit.
 
 - You can dynamically insert concurrent tasks during execution.
+- You can assign priority to tasks.
 
 
 
