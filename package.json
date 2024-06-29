@@ -1,0 +1,35 @@
+{
+  "name": "yc-concurrency",
+  "version": "1.0.0",
+  "description": "task concurrency",
+  "license": "MIT",
+  "repository": "https://github.com/yichong108/yc-concurrent",
+  "author": {
+    "name": "yicong",
+    "url": "https://github.com/yichong108"
+  },
+  "type": "module",
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "main": "./dist/yc-concurrency.umd.cjs",
+  "module": "./dist/yc-concurrency.js",
+  "types": "./lib/main.d.ts",
+  "exports": {
+    "types": "./lib/main.d.ts",
+    "import": "./dist/yc-concurrency.js",
+    "require": "./dist/yc-concurrency.umd.cjs"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "vite": "^5.2.10"
+  },
+  "dependencies": {
+    "nanoid": "^5.0.7"
+  }
+}
